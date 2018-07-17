@@ -25,6 +25,7 @@ public class HelloServiceClient {
         } finally {
             if(null != transport){
                 transport.close();
+                System.out.println("hello");
             }
         }
     }
