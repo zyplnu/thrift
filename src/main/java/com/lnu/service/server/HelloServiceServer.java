@@ -19,7 +19,8 @@ public class HelloServiceServer {
         targs.processor(tProcessor);
         targs.protocolFactory(new TBinaryProtocol.Factory());
         TServer server = new TSimpleServer(targs);
-        server.serve();
+        server.serve();l
+        System.out.println("haha");
     }
 
 }
